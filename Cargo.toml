@@ -2,10 +2,15 @@
 name = "moniker-rs"
 authors = ["Igor Spichkin"]
 license = "MIT"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "Random name generating tool."
 homepage = "https://github.com/igorsaux/moniker-rs"
 repository = "https://github.com/igorsaux/moniker-rs"
 keywords = ["cli", "terminal", "text"]
 categories = ["command-line-utilities"]
+
+[features]
+default = ["moby", "animal"]
+moby = []
+animal = []
